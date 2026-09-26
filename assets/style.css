@@ -4,13 +4,8 @@
   --muted: #666;
   --accent: #1f3a68;
   --border: #e5e5e5;
+  color-scheme: light;
 }
-:root { color-scheme: light; }
-/* Dark mode temporarily disabled; uncomment to re-enable (and drop color-scheme above).
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #111; --text: #eee; --muted: #aaa; --accent: #8fb3ff; --border: #333; }
-}
-*/
 * { box-sizing: border-box; }
 body {
   margin: 0;
