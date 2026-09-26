@@ -69,3 +69,41 @@ h2 { font-family: Georgia, "Times New Roman", serif; font-size: 1.4rem; margin: 
   .people { grid-template-columns: repeat(2, 1fr); }
   .avatar { width: 110px; height: 110px; }
 }
+
+/* Research */
+.filters { display: grid; gap: 12px; margin-bottom: 8px; }
+#search {
+  width: 100%; padding: 10px 12px; font: inherit;
+  border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--text);
+}
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  font: inherit; font-size: .85rem; padding: 6px 12px; cursor: pointer;
+  border: 1px solid var(--border); border-radius: 999px; background: var(--bg); color: var(--text);
+}
+.chip:hover { border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.filter-status { font-size: .9rem; }
+button.link { font: inherit; border: 0; background: none; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; }
+.pubs { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; }
+.pub { display: flex; gap: 16px; align-items: flex-start; }
+.thumb { flex: 0 0 160px; width: 160px; height: 100px; border-radius: 6px; object-fit: cover; background: var(--border); }
+.pub-body { min-width: 0; }
+.pub-title { font-weight: 600; }
+.pub-authors { font-size: .9rem; }
+.pub-venue { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 4px; font-size: .8rem; }
+.venue { font-weight: 700; color: var(--accent); margin-right: 4px; }
+.tag { padding: 1px 8px; border-radius: 999px; background: var(--border); color: var(--muted); }
+.pub-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.btn {
+  font: inherit; font-size: .8rem; padding: 3px 10px; cursor: pointer; text-decoration: none;
+  border: 1px solid var(--accent); border-radius: 4px; background: none; color: var(--accent);
+}
+.btn:hover { background: var(--accent); color: #fff; }
+.bibtex { font-size: .75rem; background: var(--border); padding: 10px; border-radius: 6px; overflow-x: auto; white-space: pre; }
+
+@media (max-width: 640px) {
+  .pub { flex-direction: column; }
+  .thumb { width: 100%; height: 140px; flex-basis: auto; }
+  .thumb-empty { display: none; }
+}

@@ -1,0 +1,129 @@
+{
+  "publications": [
+    {
+      "title": "Placeholder paper title 1",
+      "authors": [
+        "Nguyen Van A",
+        "External Author",
+        "Nguyen Van C"
+      ],
+      "venue": "CVPR",
+      "year": 2026,
+      "tags": [
+        "Computer Vision",
+        "3D"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "Placeholder paper title 2",
+      "authors": [
+        "Nguyen Van A",
+        "External Author",
+        "Nguyen Van C"
+      ],
+      "venue": "NeurIPS",
+      "year": 2025,
+      "tags": [
+        "LLM",
+        "Multimodal"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "Placeholder paper title 3",
+      "authors": [
+        "Nguyen Van A",
+        "External Author",
+        "Nguyen Van C"
+      ],
+      "venue": "ICCV",
+      "year": 2025,
+      "tags": [
+        "Robotics",
+        "Computer Vision"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "Placeholder paper title 4",
+      "authors": [
+        "Nguyen Van A",
+        "External Author",
+        "Nguyen Van C"
+      ],
+      "venue": "ICRA",
+      "year": 2025,
+      "tags": [
+        "3D",
+        "Robotics"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "Placeholder paper title 5",
+      "authors": [
+        "Nguyen Van A",
+        "External Author",
+        "Nguyen Van C"
+      ],
+      "venue": "ACL",
+      "year": 2024,
+      "tags": [
+        "LLM"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "Placeholder paper title 6",
+      "authors": [
+        "Nguyen Van A",
+        "External Author",
+        "Nguyen Van C"
+      ],
+      "venue": "ECCV",
+      "year": 2024,
+      "tags": [
+        "Multimodal",
+        "Computer Vision"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    }
+  ]
+}
