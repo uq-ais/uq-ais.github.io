@@ -42,3 +42,30 @@ footer { border-top: 1px solid var(--border); color: var(--muted); font-size: .9
   header .wrap { flex-direction: column; align-items: flex-start; gap: 0; }
   nav { margin-left: -12px; }
 }
+
+[hidden] { display: none !important; }
+h2 { font-family: Georgia, "Times New Roman", serif; font-size: 1.4rem; margin: 32px 0 16px; }
+.muted { color: var(--muted); }
+
+/* Members */
+.people {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px 16px;
+}
+.person { text-align: center; font-size: .9rem; }
+.avatar {
+  display: block; width: 140px; height: 140px; margin: 0 auto 10px;
+  border-radius: 50%; object-fit: cover; background: var(--border);
+}
+.avatar-empty { display: grid; place-items: center; }
+.avatar-empty svg { width: 60%; height: 60%; fill: #c4c4c4; }
+.person-name { font-weight: 600; font-size: 1rem; }
+.person-name a { color: var(--accent); }
+.person-role { color: var(--accent); }
+.person-meta { color: var(--muted); font-style: italic; }
+.projects { padding-left: 20px; }
+.projects li { margin-bottom: 6px; }
+@media (max-width: 640px) {
+  .people { grid-template-columns: repeat(2, 1fr); }
+  .avatar { width: 110px; height: 110px; }
+}
