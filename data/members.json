@@ -4,14 +4,14 @@
       "title": "Academics",
       "people": [
         {
-          "name": "Nguyen Van A",
-          "role": "Lab Director",
-          "start": "2020.01",
+          "name": "Thien-Minh Nguyen",
+          "role": "Lab Lead",
+          "start": "2025.12",
           "end": "Present",
-          "topic": "Research area",
-          "previous": "PhD@University",
+          "topic": "Multi-sensor SLAM & multi-robot systems",
+          "previous": "PhD@NTU",
           "photo": "",
-          "url": ""
+          "url": "https://brytsknguyen.github.io/"
         },
         {
           "name": "Nguyen Van B",
