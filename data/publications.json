@@ -1,80 +1,199 @@
 {
   "publications": [
     {
-      "title": "Placeholder paper title 1",
+      "title": "MCD: Diverse Large-Scale Multi-Campus Dataset for Robot Perception",
       "authors": [
-        "Nguyen Van A",
-        "External Author",
-        "Nguyen Van C"
+        "Thien-Minh Nguyen",
+        "Shenghai Yuan",
+        "Thien Hoang Nguyen",
+        "Pengyu Yin",
+        "Haozhi Cao",
+        "Lihua Xie",
+        "Maciej Wozniak",
+        "Patric Jensfelt",
+        "Marko Thiel",
+        "Justin Ziegenbein",
+        "Noel Blunder"
       ],
       "venue": "CVPR",
-      "year": 2026,
+      "year": 2024,
       "tags": [
-        "Computer Vision",
-        "3D"
+        "Datasets",
+        "LiDAR",
+        "SLAM",
+        "Semantic Segmentation"
       ],
       "thumbnail": "",
       "links": {
-        "pdf": "",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2024/html/Nguyen_MCD_Diverse_Large-Scale_Multi-Campus_Dataset_for_Robot_Perception_CVPR_2024_paper.html",
+        "code": "",
+        "project": "https://mcdviral.github.io/"
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "GPTR: Gaussian Process Trajectory Representation for Continuous-Time Motion Estimation",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Ziyu Cao",
+        "Kailai Li",
+        "Shenghai Yuan",
+        "Lihua Xie"
+      ],
+      "venue": "arXiv",
+      "year": 2024,
+      "tags": [
+        "Continuous-Time",
+        "SLAM",
+        "Sensor Fusion"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2410.22931",
+        "code": "https://github.com/brytsknguyen/gptr",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "SLICT: Multi-Input Multi-Scale Surfel-Based Lidar-Inertial Continuous-Time Odometry and Mapping",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Daniel Duberg",
+        "Patric Jensfelt",
+        "Shenghai Yuan",
+        "Lihua Xie"
+      ],
+      "venue": "IEEE RA-L",
+      "year": 2023,
+      "tags": [
+        "LiDAR",
+        "SLAM",
+        "Continuous-Time"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2211.03900",
+        "code": "https://github.com/brytsknguyen/slict",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "NTU VIRAL: A Visual-Inertial-Ranging-Lidar Dataset, From an Aerial Vehicle Viewpoint",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Shenghai Yuan",
+        "Muqing Cao",
+        "Yang Lyu",
+        "Thien Hoang Nguyen",
+        "Lihua Xie"
+      ],
+      "venue": "IJRR",
+      "year": 2022,
+      "tags": [
+        "Datasets",
+        "Aerial Robots",
+        "UWB",
+        "LiDAR"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2202.00379",
+        "code": "https://github.com/ntu-aris/ntu_viral_dataset",
+        "project": "https://ntu-aris.github.io/ntu_viral_dataset/"
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "VIRAL-Fusion: A Visual-Inertial-Ranging-Lidar Sensor Fusion Approach",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Muqing Cao",
+        "Shenghai Yuan",
+        "Yang Lyu",
+        "Thien Hoang Nguyen",
+        "Lihua Xie"
+      ],
+      "venue": "IEEE T-RO",
+      "year": 2022,
+      "tags": [
+        "Sensor Fusion",
+        "UWB",
+        "LiDAR",
+        "Aerial Robots"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2010.12274",
         "code": "",
         "project": ""
       },
       "bibtex": ""
     },
     {
-      "title": "Placeholder paper title 2",
+      "title": "LIRO: Tightly Coupled Lidar-Inertia-Ranging Odometry",
       "authors": [
-        "Nguyen Van A",
-        "External Author",
-        "Nguyen Van C"
-      ],
-      "venue": "NeurIPS",
-      "year": 2025,
-      "tags": [
-        "LLM",
-        "Multimodal"
-      ],
-      "thumbnail": "",
-      "links": {
-        "pdf": "",
-        "code": "",
-        "project": ""
-      },
-      "bibtex": ""
-    },
-    {
-      "title": "Placeholder paper title 3",
-      "authors": [
-        "Nguyen Van A",
-        "External Author",
-        "Nguyen Van C"
-      ],
-      "venue": "ICCV",
-      "year": 2025,
-      "tags": [
-        "Robotics",
-        "Computer Vision"
-      ],
-      "thumbnail": "",
-      "links": {
-        "pdf": "",
-        "code": "",
-        "project": ""
-      },
-      "bibtex": ""
-    },
-    {
-      "title": "Placeholder paper title 4",
-      "authors": [
-        "Nguyen Van A",
-        "External Author",
-        "Nguyen Van C"
+        "Thien-Minh Nguyen",
+        "Muqing Cao",
+        "Shenghai Yuan",
+        "Yang Lyu",
+        "Thien Hoang Nguyen",
+        "Lihua Xie"
       ],
       "venue": "ICRA",
-      "year": 2025,
+      "year": 2021,
       "tags": [
-        "3D",
-        "Robotics"
+        "Sensor Fusion",
+        "UWB",
+        "LiDAR"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2010.13072",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "VIRAL SLAM: Tightly Coupled Camera-IMU-UWB-Lidar SLAM",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Shenghai Yuan",
+        "Muqing Cao",
+        "Thien Hoang Nguyen",
+        "Lihua Xie"
+      ],
+      "venue": "arXiv",
+      "year": 2021,
+      "tags": [
+        "SLAM",
+        "Sensor Fusion",
+        "UWB",
+        "LiDAR"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2105.03296",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "Range-Focused Fusion of Camera-IMU-UWB for Accurate and Drift-Reduced Localization",
+      "authors": [
+        "Thien Hoang Nguyen",
+        "Thien-Minh Nguyen",
+        "Lihua Xie"
+      ],
+      "venue": "IEEE RA-L",
+      "year": 2021,
+      "tags": [
+        "Sensor Fusion",
+        "UWB",
+        "Aerial Robots"
       ],
       "thumbnail": "",
       "links": {
@@ -85,16 +204,18 @@
       "bibtex": ""
     },
     {
-      "title": "Placeholder paper title 5",
+      "title": "Graph Optimization Approach to Range-Based Localization",
       "authors": [
-        "Nguyen Van A",
-        "External Author",
-        "Nguyen Van C"
+        "Xu Fang",
+        "Chen Wang",
+        "Thien-Minh Nguyen",
+        "Lihua Xie"
       ],
-      "venue": "ACL",
-      "year": 2024,
+      "venue": "IEEE T-SMC: Systems",
+      "year": 2021,
       "tags": [
-        "LLM"
+        "UWB",
+        "Multi-Robot"
       ],
       "thumbnail": "",
       "links": {
@@ -105,17 +226,43 @@
       "bibtex": ""
     },
     {
-      "title": "Placeholder paper title 6",
+      "title": "Distance-Based Cooperative Relative Localization for Leader-Following Control of MAVs",
       "authors": [
-        "Nguyen Van A",
-        "External Author",
-        "Nguyen Van C"
+        "Thien-Minh Nguyen",
+        "Zhirong Qiu",
+        "Thien Hoang Nguyen",
+        "Muqing Cao",
+        "Lihua Xie"
       ],
-      "venue": "ECCV",
-      "year": 2024,
+      "venue": "IEEE RA-L",
+      "year": 2019,
       "tags": [
-        "Multimodal",
-        "Computer Vision"
+        "Multi-Robot",
+        "UWB",
+        "Aerial Robots"
+      ],
+      "thumbnail": "",
+      "links": {
+        "pdf": "https://ieeexplore.ieee.org/document/8754725/",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "Integrated UWB-Vision Approach for Autonomous Docking of UAVs in GPS-Denied Environments",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Thien Hoang Nguyen",
+        "Muqing Cao",
+        "Zhirong Qiu",
+        "Lihua Xie"
+      ],
+      "venue": "ICRA",
+      "year": 2019,
+      "tags": [
+        "UWB",
+        "Aerial Robots"
       ],
       "thumbnail": "",
       "links": {
