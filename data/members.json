@@ -16,16 +16,16 @@
       ]
     },
     {
-      "title": "PhD Students",
+      "title": "PhD Candidates",
       "people": [
         {
           "name": "Tien-Dat Nguyen",
-          "role": "PhD",
+          "role": "PhD Candidate",
           "start": "",
           "end": "",
           "topic": "",
           "previous": "",
-          "photo": "",
+          "photo": "assets/img/members/dat.jpeg",
           "url": ""
         }
       ]

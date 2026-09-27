@@ -25,6 +25,57 @@
       "bibtex": ""
     },
     {
+      "title": "A Third-Order Gaussian Process Trajectory Representation Framework with Closed-Form Kinematics for Continuous-Time Motion Estimation (GPTR)",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Ziyu Cao",
+        "Kailai Li",
+        "William Talbot",
+        "Tongxing Jin",
+        "Shenghai Yuan",
+        "Timothy D. Barfoot",
+        "Lihua Xie"
+      ],
+      "venue": "IEEE T-RO",
+      "year": 2026,
+      "tags": [
+        "Continuous-Time",
+        "SLAM",
+        "Sensor Fusion"
+      ],
+      "thumbnail": "assets/img/papers/gptr.gif",
+      "links": {
+        "IEEE": "https://ieeexplore.ieee.org/document/11554951",
+        "pdf": "https://arxiv.org/pdf/2410.22931",
+        "code": "https://github.com/brytsknguyen/gptr"
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "ULOC: Learning to Localize in Complex Large-Scale Environments with Ultra-Wideband Ranges",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Yizhuo Yang",
+        "Tien-Dat Nguyen",
+        "Shenghai Yuan",
+        "Lihua Xie"
+      ],
+      "venue": "ICRA",
+      "year": 2025,
+      "tags": [
+        "UWB",
+        "Localization",
+        "Machine Learning"
+      ],
+      "thumbnail": "assets/img/papers/uloc.gif",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2409.11122",
+        "code": "https://github.com/brytsknguyen/uloc",
+        "IEEE": "https://ieeexplore.ieee.org/abstract/document/11128859"
+      },
+      "bibtex": ""
+    },
+    {
       "title": "MCD: Diverse Large-Scale Multi-Campus Dataset for Robot Perception",
       "authors": [
         "Thien-Minh Nguyen",
@@ -47,7 +98,7 @@
         "SLAM",
         "Semantic Segmentation"
       ],
-      "thumbnail": "",
+      "thumbnail": "assets/img/papers/mcdviral.gif",
       "links": {
         "pdf": "https://openaccess.thecvf.com/content/CVPR2024/html/Nguyen_MCD_Diverse_Large-Scale_Multi-Campus_Dataset_for_Robot_Perception_CVPR_2024_paper.html",
         "code": "",
@@ -56,26 +107,53 @@
       "bibtex": ""
     },
     {
-      "title": "GPTR: Gaussian Process Trajectory Representation for Continuous-Time Motion Estimation",
+      "title": "CARIC: A Benchmark for Cooperative Aerial Robots Inspection",
       "authors": [
         "Thien-Minh Nguyen",
-        "Ziyu Cao",
-        "Kailai Li",
+        "Muqing Cao",
+        "Shenghai Yuan",
+        "Xinhang Xu",
+        "Lihua Xie",
+        "Ben M. Chen"
+      ],
+      "venue": "CDC 2023 / IROS Challenge",
+      "year": 2024,
+      "tags": [
+        "Multi-Robot",
+        "Aerial Robots",
+        "Benchmarks",
+        "Path Planning"
+      ],
+      "thumbnail": "assets/img/papers/caric.gif",
+      "links": {
+        "project": "https://ntu-aris.github.io/caric/",
+        "code": "https://github.com/ntu-aris/caric_baseline",
+        "Baseline paper": "https://arxiv.org/abs/2403.01225"
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "Eigen Is All You Need: Efficient Lidar-Inertial Continuous-Time Odometry with Internal Association",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Xinhang Xu",
+        "Tongxing Jin",
+        "Yizhuo Yang",
+        "Jianping Li",
         "Shenghai Yuan",
         "Lihua Xie"
       ],
-      "venue": "arXiv",
+      "venue": "IEEE RA-L",
       "year": 2024,
       "tags": [
-        "Continuous-Time",
+        "LiDAR",
         "SLAM",
-        "Sensor Fusion"
+        "Continuous-Time"
       ],
-      "thumbnail": "",
+      "thumbnail": "assets/img/papers/slict2.png",
       "links": {
-        "pdf": "https://arxiv.org/abs/2410.22931",
-        "code": "https://github.com/brytsknguyen/gptr",
-        "project": ""
+        "pdf": "https://arxiv.org/abs/2402.02337",
+        "code": "https://github.com/brytsknguyen/slict"
       },
       "bibtex": ""
     },
@@ -95,7 +173,7 @@
         "SLAM",
         "Continuous-Time"
       ],
-      "thumbnail": "",
+      "thumbnail": "assets/img/papers/slict.png",
       "links": {
         "pdf": "https://arxiv.org/abs/2211.03900",
         "code": "https://github.com/brytsknguyen/slict",
@@ -121,7 +199,7 @@
         "UWB",
         "LiDAR"
       ],
-      "thumbnail": "",
+      "thumbnail": "assets/img/papers/ntuviral.jpg",
       "links": {
         "pdf": "https://arxiv.org/abs/2202.00379",
         "code": "https://github.com/ntu-aris/ntu_viral_dataset",
@@ -147,9 +225,9 @@
         "LiDAR",
         "Aerial Robots"
       ],
-      "thumbnail": "",
+      "thumbnail": "assets/img/papers/viralslam.gif",
       "links": {
-        "pdf": "https://arxiv.org/abs/2010.12274",
+        "pdf": "https://ieeexplore.ieee.org/document/9502143",
         "code": "",
         "project": ""
       },
@@ -250,6 +328,29 @@
       "bibtex": ""
     },
     {
+      "title": "Persistently Excited Adaptive Relative Localization and Time-Varying Formation of Robot Swarms",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Zhirong Qiu",
+        "Thien Hoang Nguyen",
+        "Muqing Cao",
+        "Lihua Xie"
+      ],
+      "venue": "IEEE T-RO",
+      "year": 2020,
+      "tags": [
+        "Multi-Robot",
+        "UWB",
+        "Aerial Robots"
+      ],
+      "thumbnail": "assets/img/papers/pearl-tvf.gif",
+      "links": {
+        "pdf": "https://ieeexplore.ieee.org/document/8931008",
+        "project": "https://brytsknguyen.github.io/Research/pearltvf"
+      },
+      "bibtex": ""
+    },
+    {
       "title": "Distance-Based Cooperative Relative Localization for Leader-Following Control of MAVs",
       "authors": [
         "Thien-Minh Nguyen",
@@ -288,11 +389,33 @@
         "UWB",
         "Aerial Robots"
       ],
-      "thumbnail": "",
+      "thumbnail": "assets/img/papers/uwblanding.gif",
       "links": {
-        "pdf": "",
+        "pdf": "https://ieeexplore.ieee.org/document/8793851",
         "code": "",
         "project": ""
+      },
+      "bibtex": ""
+    },
+    {
+      "title": "An Ultra-Wideband-based Multi-UAV Localization System in GPS-denied Environments",
+      "authors": [
+        "Thien-Minh Nguyen",
+        "Abdul Hanif Zaini",
+        "Kexin Guo",
+        "Lihua Xie"
+      ],
+      "venue": "IMAV",
+      "year": 2016,
+      "tags": [
+        "UWB",
+        "Multi-Robot",
+        "Aerial Robots",
+        "Localization"
+      ],
+      "thumbnail": "assets/img/papers/uwbloc.gif",
+      "links": {
+        "pdf": "https://www.imavs.org/papers/2016/9.pdf"
       },
       "bibtex": ""
     }
