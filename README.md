@@ -169,7 +169,11 @@ The order of papers in the file doesn't matter; the page sorts them by year.
 - **Rename a tag:** change it on every paper that uses it. Spelling and capitals must match exactly: `3D` and `3d` are two different chips.
 - **Remove a tag:** delete it from every paper that uses it.
 - Picking several chips shows papers that have **all** of the chosen tags. The search box matches titles, authors and venues.
-- Filtered views can be shared as links, e.g. `https://uq-ais.github.io/research.html?tag=3D&tag=Robotics`.
+- Filtered views can be shared as links, e.g. `https://uq-ais.github.io/research.html?tag=SLAM&tag=UWB`.
+
+### Pages
+
+The Research page shows **5 papers per page**, with page buttons at the bottom. Changing a filter or the search jumps back to page 1, and the page number is kept in the link (`research.html?page=2`). To show more per page, change `PAGE_SIZE` at the top of `assets/js/research.js`.
 
 ## Awards
 
@@ -182,11 +186,11 @@ The site currently ships with dummy content so the layout can be seen. To replac
 1. **Members:** in `data/members.json`, overwrite each `Nguyen Van A`, `Nguyen Van B`, … block with a real person, and delete the ones you don't need. Also replace the placeholder text `Research area`, `Research topic`, `PhD@University`, `MSc@University`, `Company` and so on.
 2. **Sections:** rename, add or remove the `groups` (`Academics`, `PhD Students`, `Masters & Honours Students`) to match the lab.
 3. **Alumni and projects:** replace or empty them (`"alumni": []` and `"projects": []` hide those sections).
-4. **Papers:** in `data/publications.json`, replace the six `Placeholder paper title N` entries. Remove the example tags (`Computer Vision`, `3D`, `LLM`, `Multimodal`, `Robotics`) if you don't use them.
+4. **Papers:** `data/publications.json` already holds the lab lead's publications. Add new papers to the list; add thumbnails and BibTeX where you have them.
 5. **Photos:** add them to `assets/img/members/` and set `photo` (see [Images](#images)).
 6. **Home page:** the "Hello, world" text is in `index.html` inside `<main>`, and the footer text `© 2026 AIS group` is at the bottom of every `.html` file.
 
-Search each file for `Nguyen Van` and `Placeholder` to make sure nothing is left.
+Search each file for `Nguyen Van` to make sure no placeholder is left.
 
 ## Images
 
