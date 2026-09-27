@@ -102,3 +102,11 @@ button.link { font: inherit; border: 0; background: none; padding: 0; color: var
   .thumb { width: 100%; height: 140px; flex-basis: auto; }
   .thumb-empty { display: none; }
 }
+.pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 32px; }
+.page-btn {
+  font: inherit; font-size: .9rem; min-width: 40px; padding: 6px 10px; cursor: pointer;
+  border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--text);
+}
+.page-btn:hover:not(:disabled) { border-color: var(--accent); }
+.page-btn[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.page-btn:disabled { opacity: .4; cursor: default; }

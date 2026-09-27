@@ -1,22 +1,26 @@
 // Renders data/publications.json into #pubs with tag + text filtering.
-// Filter state lives in the URL (?tag=3D&tag=LLM&q=...) so filtered views can be shared.
+// Filter state lives in the URL (?tag=3D&tag=LLM&q=...&page=2) so filtered views can be shared.
+const PAGE_SIZE = 5;
 const LINK_LABELS = { pdf: "PDF", code: "Code", project: "Project" };
 
 let pubs = [];
 let memberNames = new Set();
 const selected = new Set();
 let query = "";
+let page = 1;
 
 function readURL() {
   const params = new URLSearchParams(location.search);
   params.getAll("tag").forEach((t) => selected.add(t));
   query = params.get("q") || "";
+  page = Math.max(1, parseInt(params.get("page"), 10) || 1);
 }
 
 function writeURL() {
   const params = new URLSearchParams();
   selected.forEach((t) => params.append("tag", t));
   if (query) params.set("q", query);
+  if (page > 1) params.set("page", page);
   const qs = params.toString();
   history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
 }
@@ -59,16 +63,34 @@ function renderChips() {
     `<button type="button" class="chip" aria-pressed="${selected.has(t)}" data-tag="${esc(t)}">${esc(t)}</button>`).join("");
 }
 
+function renderPager(pages) {
+  const pager = document.getElementById("pager");
+  if (pages <= 1) { pager.innerHTML = ""; return; }
+  const btn = (n, label, attrs = "") =>
+    `<button type="button" class="page-btn" data-page="${n}" ${attrs}>${label}</button>`;
+  let html = btn(page - 1, "‹ Prev", page === 1 ? "disabled" : "");
+  for (let n = 1; n <= pages; n++) html += btn(n, n, n === page ? 'aria-current="page"' : "");
+  html += btn(page + 1, "Next ›", page === pages ? "disabled" : "");
+  pager.innerHTML = html;
+}
+
 function renderList() {
   const shown = pubs.map((p, i) => [p, i]).filter(([p]) => matches(p))
     .sort(([a], [b]) => b.year - a.year);
-  const years = [...new Set(shown.map(([p]) => p.year))];
-  document.getElementById("pubs").innerHTML = shown.length
+  const pages = Math.max(1, Math.ceil(shown.length / PAGE_SIZE));
+  page = Math.min(page, pages);
+  const onPage = shown.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const years = [...new Set(onPage.map(([p]) => p.year))];
+  document.getElementById("pubs").innerHTML = onPage.length
     ? years.map((y) => `<h2>${esc(y)}</h2><ul class="pubs">${
-        shown.filter(([p]) => p.year === y).map(([p, i]) => pubItem(p, i)).join("")}</ul>`).join("")
+        onPage.filter(([p]) => p.year === y).map(([p, i]) => pubItem(p, i)).join("")}</ul>`).join("")
     : `<p class="muted">No papers match these filters.</p>`;
-  document.getElementById("count").textContent = `${shown.length} of ${pubs.length} papers`;
+  const from = shown.length ? (page - 1) * PAGE_SIZE + 1 : 0;
+  const to = (page - 1) * PAGE_SIZE + onPage.length;
+  document.getElementById("count").textContent =
+    `Showing ${from}–${to} of ${shown.length} papers` + (shown.length < pubs.length ? ` (${pubs.length} total)` : "");
   document.getElementById("clear").hidden = !selected.size && !query;
+  renderPager(pages);
 }
 
 function update() {
@@ -99,11 +121,19 @@ function update() {
     const tag = e.target.closest(".chip")?.dataset.tag;
     if (!tag) return;
     selected.has(tag) ? selected.delete(tag) : selected.add(tag);
+    page = 1;
     update();
   });
-  search.addEventListener("input", () => { query = search.value.trim(); update(); });
+  search.addEventListener("input", () => { query = search.value.trim(); page = 1; update(); });
   document.getElementById("clear").addEventListener("click", () => {
-    selected.clear(); query = ""; search.value = ""; update();
+    selected.clear(); query = ""; search.value = ""; page = 1; update();
+  });
+  document.getElementById("pager").addEventListener("click", (e) => {
+    const btn = e.target.closest(".page-btn");
+    if (!btn || btn.disabled) return;
+    page = Number(btn.dataset.page);
+    update();
+    document.querySelector(".filters").scrollIntoView({ behavior: "smooth" });
   });
   root.addEventListener("click", (e) => {
     const i = e.target.closest("[data-bib]")?.dataset.bib;
