@@ -11,11 +11,16 @@ function nameLink(p) {
   return p.url ? `<a href="${esc(p.url)}">${esc(p.name)}</a>` : esc(p.name);
 }
 
+// " (2024.01–Present)", or nothing when no start date is given.
+function dates(p) {
+  return p.start ? ` (${esc(p.start)}–${esc(p.end || "Present")})` : "";
+}
+
 function memberCard(p) {
   return `<li class="person">
     ${photo(p)}
     <div class="person-name">${nameLink(p)}</div>
-    <div class="person-role">${esc(p.role)} (${esc(p.start)}–${esc(p.end)})</div>
+    <div class="person-role">${esc(p.role)}${dates(p)}</div>
     ${p.topic ? `<div class="person-meta">${esc(p.topic)}</div>` : ""}
     ${p.previous ? `<div class="person-meta">${esc(p.previous)}</div>` : ""}
   </li>`;
@@ -26,7 +31,7 @@ function alumniCard(p) {
     ${photo(p)}
     <div class="person-name">${nameLink(p)}</div>
     ${p.destination ? `<div class="person-role">→ ${esc(p.destination)}</div>` : ""}
-    <div class="person-meta">${esc(p.role)}@UQAIS, ${esc(p.start)}–${esc(p.end)}</div>
+    <div class="person-meta">${esc(p.role)}@UQAIS${p.start ? `, ${esc(p.start)}–${esc(p.end)}` : ""}</div>
   </li>`;
 }
 

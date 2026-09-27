@@ -5,23 +5,13 @@
       "people": [
         {
           "name": "Thien-Minh Nguyen",
-          "role": "Lab Lead",
+          "role": "Lecturer · Lab Lead",
           "start": "2025.12",
           "end": "Present",
           "topic": "Multi-sensor SLAM & multi-robot systems",
           "previous": "PhD@NTU",
           "photo": "",
           "url": "https://brytsknguyen.github.io/"
-        },
-        {
-          "name": "Nguyen Van B",
-          "role": "Lecturer",
-          "start": "2022.07",
-          "end": "Present",
-          "topic": "Research area",
-          "previous": "PhD@University",
-          "photo": "",
-          "url": ""
         }
       ]
     },
@@ -29,136 +19,43 @@
       "title": "PhD Students",
       "people": [
         {
-          "name": "Nguyen Van C",
+          "name": "Tien Dat Nguyen",
           "role": "PhD",
-          "start": "2023.07",
-          "end": "Present",
-          "topic": "Research topic",
-          "previous": "MSc@University",
-          "photo": "",
-          "url": ""
-        },
-        {
-          "name": "Nguyen Van D",
-          "role": "PhD",
-          "start": "2024.01",
-          "end": "Present",
-          "topic": "Research topic",
-          "previous": "MSc@University",
-          "photo": "",
-          "url": ""
-        },
-        {
-          "name": "Nguyen Van E",
-          "role": "PhD",
-          "start": "2024.07",
-          "end": "Present",
-          "topic": "Research topic",
-          "previous": "MSc@University",
-          "photo": "",
-          "url": ""
-        },
-        {
-          "name": "Nguyen Van F",
-          "role": "PhD",
-          "start": "2025.01",
-          "end": "Present",
-          "topic": "Research topic",
-          "previous": "MSc@University",
-          "photo": "",
-          "url": ""
-        },
-        {
-          "name": "Nguyen Van G",
-          "role": "PhD",
-          "start": "2025.10",
-          "end": "Present",
-          "topic": "Research topic",
-          "previous": "MSc@University",
-          "photo": "",
-          "url": ""
-        },
-        {
-          "name": "Nguyen Van H",
-          "role": "PhD",
-          "start": "2025.10",
-          "end": "Present",
-          "topic": "Research topic",
-          "previous": "MSc@University",
+          "start": "",
+          "end": "",
+          "topic": "",
+          "previous": "",
           "photo": "",
           "url": ""
         }
       ]
     },
     {
-      "title": "Masters & Honours Students",
+      "title": "Undergraduate Students",
       "people": [
         {
-          "name": "Nguyen Van I",
-          "role": "MPhil",
-          "start": "2025.02",
-          "end": "Present",
-          "topic": "Research topic",
-          "previous": "BSc@UQ",
+          "name": "Gia Hung Huynh",
+          "role": "Undergraduate",
+          "start": "",
+          "end": "",
+          "topic": "",
+          "previous": "",
           "photo": "",
           "url": ""
         },
         {
-          "name": "Nguyen Van J",
-          "role": "Honours",
-          "start": "2026.02",
-          "end": "Present",
-          "topic": "Research topic",
-          "previous": "BSc@UQ",
+          "name": "Lara",
+          "role": "Undergraduate",
+          "start": "",
+          "end": "",
+          "topic": "",
+          "previous": "",
           "photo": "",
           "url": ""
         }
       ]
     }
   ],
-  "alumni": [
-    {
-      "name": "Nguyen Van K",
-      "role": "PhD",
-      "start": "2021.07",
-      "end": "2025.06",
-      "photo": "",
-      "url": "",
-      "destination": "Research Scientist @ Company"
-    },
-    {
-      "name": "Nguyen Van L",
-      "role": "PhD",
-      "start": "2022.01",
-      "end": "2025.06",
-      "photo": "",
-      "url": "",
-      "destination": "AI Engineer @ Company"
-    },
-    {
-      "name": "Nguyen Van M",
-      "role": "MPhil",
-      "start": "2023.01",
-      "end": "2025.12",
-      "photo": "",
-      "url": "",
-      "destination": "PhD @ University"
-    }
-  ],
-  "projects": [
-    {
-      "people": "Nguyen Van N",
-      "title": "Project title",
-      "type": "Winter Research",
-      "period": "Jul '25",
-      "url": ""
-    },
-    {
-      "people": "Nguyen Van O, Nguyen Van P",
-      "title": "Project title",
-      "type": "Capstone",
-      "period": "Feb '24 – Jul '24",
-      "url": ""
-    }
-  ]
+  "alumni": [],
+  "projects": []
 }
