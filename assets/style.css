@@ -31,6 +31,7 @@ nav a:hover { background: var(--border); }
 nav a[aria-current="page"] { color: var(--accent); font-weight: 600; }
 
 main.wrap { padding-top: 32px; padding-bottom: 48px; }
+main a:not(.btn) { color: var(--accent); }
 h1 { font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1.2; margin: 0 0 16px; }
 footer { border-top: 1px solid var(--border); color: var(--muted); font-size: .9rem; padding: 16px 0; }
 @media (max-width: 480px) {
@@ -100,7 +101,6 @@ button.link { font: inherit; border: 0; background: none; padding: 0; color: var
 @media (max-width: 640px) {
   .pub { flex-direction: column; }
   .thumb { width: 100%; height: 140px; flex-basis: auto; }
-  .thumb-empty { display: none; }
 }
 .pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 32px; }
 .page-btn {

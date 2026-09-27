@@ -41,9 +41,7 @@ function pubItem(p, i) {
     .filter(([, url]) => url)
     .map(([k, url]) => `<a class="btn" href="${esc(url)}">${esc(LINK_LABELS[k] || k)}</a>`);
   if (p.bibtex) links.push(`<button class="btn" type="button" data-bib="${i}">BibTeX</button>`);
-  const thumb = p.thumbnail
-    ? `<img class="thumb" src="${esc(p.thumbnail)}" alt="" loading="lazy">`
-    : `<div class="thumb thumb-empty" aria-hidden="true"></div>`;
+  const thumb = p.thumbnail ? `<img class="thumb" src="${esc(p.thumbnail)}" alt="" loading="lazy">` : "";
   return `<li class="pub">
     ${thumb}
     <div class="pub-body">
