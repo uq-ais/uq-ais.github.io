@@ -10,7 +10,7 @@ No build step: every push to `main` goes live in 1–2 minutes.
 - [Student projects](#student-projects)
 - [Publications and tags](#publications-and-tags)
 - [Awards](#awards)
-- [Replacing the placeholders](#replacing-the-placeholders)
+- [Filling in missing details](#filling-in-missing-details)
 - [Images](#images)
 - [JSON rules and troubleshooting](#json-rules-and-troubleshooting)
 - [Preview locally](#preview-locally)
@@ -77,7 +77,7 @@ Each group is one section on the page, shown in the order they appear in the fil
 |---|---|---|
 | `name` | Name under the photo. Also used to **bold** the person in paper author lists, so spell it exactly the same in both files. | Yes |
 | `role` | `PhD (2024.01–Present)` | Yes |
-| `start`, `end` | Dates in the line above. Use `"Present"` for current members. | Yes |
+| `start`, `end` | Dates in the line above. Use `"Present"` for current members. Leave `start` empty to show just the role. | No |
 | `topic` | Research topic, in italics | No: leave `""` to hide |
 | `previous` | Previous degree, e.g. `MSc@UQ` | No: leave `""` to hide |
 | `photo` | Round photo. Empty shows a grey placeholder. | No |
@@ -156,7 +156,7 @@ Papers live in `data/publications.json`. The Research page groups them by `year`
 | `venue` | Short venue name, e.g. `CVPR`, `NeurIPS`, `arXiv` |
 | `year` | A number **without quotes**: `2026`, not `"2026"` |
 | `tags` | List of topic tags (see below) |
-| `thumbnail` | Image on the left. Empty shows a grey box (hidden on phones). |
+| `thumbnail` | Image on the left. Leave empty to show no image. |
 | `links` | `pdf`, `code`, `project`: each becomes a button. Leave `""` to hide it. |
 | `bibtex` | Optional. Adds a BibTeX button. Write line breaks as `\n` and escape any `"` as `\"`. |
 
@@ -179,18 +179,16 @@ The Research page shows **5 papers per page**, with page buttons at the bottom. 
 
 There's no Awards section on the site yet. When you want one, ask for it to be added. It would work the same way as the rest: a `data/awards.json` file with a title, event, year and image for each award, and images in `assets/img/awards/`.
 
-## Replacing the placeholders
+## Filling in missing details
 
-The site currently ships with dummy content so the layout can be seen. To replace it:
+All placeholder people have been replaced by the real lab members. What's still missing:
 
-1. **Members:** in `data/members.json`, overwrite each `Nguyen Van A`, `Nguyen Van B`, … block with a real person, and delete the ones you don't need. Also replace the placeholder text `Research area`, `Research topic`, `PhD@University`, `MSc@University`, `Company` and so on.
-2. **Sections:** rename, add or remove the `groups` (`Academics`, `PhD Students`, `Masters & Honours Students`) to match the lab.
-3. **Alumni and projects:** replace or empty them (`"alumni": []` and `"projects": []` hide those sections).
-4. **Papers:** `data/publications.json` already holds the lab lead's publications. Add new papers to the list; add thumbnails and BibTeX where you have them.
-5. **Photos:** add them to `assets/img/members/` and set `photo` (see [Images](#images)).
-6. **Home page:** the "Hello, world" text is in `index.html` inside `<main>`, and the footer text `© 2026 AIS group` is at the bottom of every `.html` file.
-
-Search each file for `Nguyen Van` to make sure no placeholder is left.
+1. **Photos:** add them to `assets/img/members/` and set `photo` (see [Images](#images)). Until then each card shows a grey silhouette.
+2. **Member details:** `start` dates, `topic` and `previous` for the students, and Lara's surname, in `data/members.json`.
+3. **More sections:** add groups such as `Masters & Honours Students` or `Research Assistants` to `groups` when the lab has them.
+4. **Alumni and projects:** add entries to `alumni` and `projects`; while they're empty (`[]`) those sections stay hidden.
+5. **Papers:** `data/publications.json` holds the lab lead's publications. Add new papers to the list, plus thumbnails and BibTeX where you have them.
+6. **Home page:** the introduction and research areas are in `index.html` inside `<main>`; the footer text is at the bottom of every `.html` file.
 
 ## Images
 
