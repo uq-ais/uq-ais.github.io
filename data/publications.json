@@ -1,6 +1,30 @@
 {
   "publications": [
     {
+      "title": "Interactive Object Tracking on Gait-Parameterized Locomotion Policy",
+      "authors": [
+        "Gia-Hung Huynh",
+        "Tianxin Hu",
+        "Tien-Dat Nguyen",
+        "Shenghai Yuan",
+        "Thien-Minh Nguyen"
+      ],
+      "venue": "ICARCV",
+      "year": 2026,
+      "tags": [
+        "Legged Robots",
+        "Reinforcement Learning",
+        "Sim-to-Real"
+      ],
+      "thumbnail": "assets/img/papers/interactive-object-tracking.jpg",
+      "links": {
+        "pdf": "",
+        "code": "",
+        "project": ""
+      },
+      "bibtex": ""
+    },
+    {
       "title": "MCD: Diverse Large-Scale Multi-Campus Dataset for Robot Perception",
       "authors": [
         "Thien-Minh Nguyen",
