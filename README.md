@@ -181,13 +181,13 @@ There's no Awards section on the site yet. When you want one, ask for it to be a
 
 ## Filling in missing details
 
-All placeholder people have been replaced by the real lab members. What's still missing:
+All placeholder people have been replaced by the real group members. What's still missing:
 
 1. **Photos:** add them to `assets/img/members/` and set `photo` (see [Images](#images)). Until then each card shows a grey silhouette.
 2. **Member details:** `start` dates, `topic` and `previous` for the students, and Lara's surname, in `data/members.json`.
-3. **More sections:** add groups such as `Masters & Honours Students` or `Research Assistants` to `groups` when the lab has them.
+3. **More sections:** add groups such as `Masters & Honours Students` or `Research Assistants` to `groups` when the group has them.
 4. **Alumni and projects:** add entries to `alumni` and `projects`; while they're empty (`[]`) those sections stay hidden.
-5. **Papers:** `data/publications.json` holds the lab lead's publications. Add new papers to the list, plus thumbnails and BibTeX where you have them.
+5. **Papers:** `data/publications.json` holds the group lead's publications. Add new papers to the list, plus thumbnails and BibTeX where you have them.
 6. **Home page:** the introduction and research areas are in `index.html` inside `<main>`; the footer text is at the bottom of every `.html` file.
 
 ## Images
