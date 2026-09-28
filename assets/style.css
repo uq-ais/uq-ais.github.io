@@ -136,3 +136,8 @@ button.link { font: inherit; border: 0; background: none; padding: 0; color: var
 .cta .btn:first-child { background: var(--accent); color: #fff; }
 .cta .btn:first-child:hover { background: var(--accent-dark); }
 @media (max-width: 640px) { .areas { grid-template-columns: 1fr; } }
+
+/* Qiuqiu */
+.robot-figure { margin: 28px 0; }
+.robot-figure img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.robot-figure figcaption { margin-top: 10px; color: var(--muted); font-size: .9rem; }
