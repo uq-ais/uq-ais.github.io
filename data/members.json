@@ -1,6 +1,21 @@
 {
   "groups": [
     {
+      "title": "Robot Members",
+      "people": [
+        {
+          "name": "Qiuqiu",
+          "role": "Legged Robot · She / Her",
+          "start": "",
+          "end": "",
+          "topic": "Robot learning, locomotion & interaction",
+          "previous": "",
+          "photo": "assets/img/members/qiuqiu.jpeg",
+          "url": "qiuqiu.html"
+        }
+      ]
+    },
+    {
       "title": "Academics",
       "people": [
         {
@@ -52,21 +67,6 @@
           "previous": "",
           "photo": "",
           "url": ""
-        }
-      ]
-    },
-    {
-      "title": "Robot Members",
-      "people": [
-        {
-          "name": "Qiuqiu",
-          "role": "Legged Robot · She / Her",
-          "start": "",
-          "end": "",
-          "topic": "Robot learning, locomotion & interaction",
-          "previous": "",
-          "photo": "assets/img/members/qiuqiu.jpeg",
-          "url": "qiuqiu.html"
         }
       ]
     }
