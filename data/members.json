@@ -21,9 +21,9 @@
         {
           "name": "Tien-Dat Nguyen",
           "role": "PhD Candidate",
-          "start": "",
-          "end": "",
-          "topic": "",
+          "start": "1st Oct 2026",
+          "end": "Present",
+          "topic": "SLAM, 3D Reconstruction",
           "previous": "",
           "photo": "assets/img/members/dat.jpeg",
           "url": ""
@@ -35,23 +35,23 @@
       "people": [
         {
           "name": "Gia-Hung Huynh",
-          "role": "Undergraduate",
+          "role": "Research attachment student",
           "start": "",
           "end": "",
           "topic": "",
-          "previous": "",
+          "previous": "Winter research student",
           "photo": "assets/img/members/hung.jpg",
           "url": ""
         },
         {
-          "name": "Lara",
-          "role": "Undergraduate",
+          "name": "Lara McManus",
+          "role": "METR4912 Thesis Student.",
           "start": "",
           "end": "",
-          "topic": "",
+          "topic": "Project Grip Grip",
           "previous": "",
           "photo": "",
-          "url": ""
+          "url": "https://www.linkedin.com/in/lara-mcmanus123"
         }
       ]
     }
