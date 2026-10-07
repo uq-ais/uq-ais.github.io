@@ -1,6 +1,21 @@
 {
   "groups": [
     {
+      "title": "Robot Members",
+      "people": [
+        {
+          "name": "Qiuqiu",
+          "role": "Legged Robot · She / Her",
+          "start": "",
+          "end": "",
+          "topic": "Robot learning, locomotion & interaction",
+          "previous": "",
+          "photo": "assets/img/members/qiuqiu.jpeg",
+          "url": "qiuqiu.html"
+        }
+      ]
+    },
+    {
       "title": "Academics",
       "people": [
         {
@@ -50,7 +65,7 @@
           "end": "",
           "topic": "Project Grip Grip",
           "previous": "",
-          "photo": "",
+          "photo": "assets/img/members/lara.jpeg",
           "url": "https://www.linkedin.com/in/lara-mcmanus123"
         }
       ]

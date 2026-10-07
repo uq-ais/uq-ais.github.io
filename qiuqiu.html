@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meet Qiuqiu, the legged robot of AIS Group at The University of Queensland.">
+  <title>Qiuqiu · AIS Group</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">AIS</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="members.html">Members</a>
+        <a href="research.html">Research</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="qiuqiu-title">
+      <p class="eyebrow">Meet our legged robot · She / Her</p>
+      <h1 id="qiuqiu-title">Qiuqiu</h1>
+      <p class="slogan">Four legs. A world to explore.</p>
+      <p class="affiliation">AIS Group · The University of Queensland</p>
+    </section>
+
+    <p class="lead">Meet Qiuqiu, our legged robot. She is part of AIS Group, helping us explore
+      how robots learn to move and interact with the world around them.</p>
+    <p>Our work with her brings together robot learning, locomotion and perception,
+      connecting policies learned in simulation with experiments on a real robot.</p>
+
+    <figure class="robot-figure">
+      <img src="assets/img/papers/interactive-object-tracking.jpg"
+        alt="Legged robot and object-tracking views from our interactive object tracking research">
+      <figcaption>Legged locomotion and interactive object tracking research at AIS Group.</figcaption>
+    </figure>
+
+    <section aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects with Qiuqiu</h2>
+      <p>She can walk and detect objects. Now she needs a hero to help her try something new.
+        These project opportunities explore new mechanisms and learned behaviours for her.</p>
+
+      <article class="qiuqiu-project">
+        <p class="project-category">Mechanical design · Electronics</p>
+        <h3>Give Qiuqiu a (Robotic) Finger</h3>
+        <figure class="robot-figure project-figure">
+          <img src="assets/img/qiuqiu/finger.png" width="526" height="571"
+            alt="Project illustration: Give Qiuqiu a (Robotic) Finger" loading="lazy">
+        </figure>
+        <p>Help her grip objects by designing a lightweight appendage attached to her leg.
+          The aim is a self-contained, battery-powered gripper with wireless control that stays
+          within her field of view and does not interfere with normal locomotion.</p>
+        <p><strong>The work:</strong> Design and prototype the mechanism, integrate a microcontroller
+          and servo system, and control it alongside her joints through the robot API and ROS.</p>
+        <p><strong>Useful skills:</strong> Mechanical engineering, CAD/CAM, electronics, power supplies,
+          microcontrollers, servo motors, and basic Python on Linux.</p>
+        <p><strong>Scope:</strong> Three-legged walking, navigation to objects and autonomous gripping
+          with visual feedback are possible extensions to discuss with the supervisor.</p>
+      </article>
+
+      <article class="qiuqiu-project">
+        <p class="project-category">Mechanical design · Compliant mechanisms</p>
+        <h3>Project Big Hugger</h3>
+        <figure class="robot-figure project-figure">
+          <img src="assets/img/qiuqiu/big_hugger.png" width="500" height="444"
+            alt="Project illustration: Project Big Hugger" loading="lazy">
+        </figure>
+        <p>Help her collect balls on a golf or tennis court with a passive mechanical system.
+          The collector should use potential energy and compliant mechanics, without powered actuators.</p>
+        <p><strong>The work:</strong> Design a mechanism that uses her body movements to gather balls.
+          One concept lowers a scoop as she crouches and lifts it as she stands, allowing the ball
+          to roll into a collection wagon. Alternative mechanisms are welcome.</p>
+        <p><strong>Useful skills:</strong> Mechanical engineering and CAD/CAM, plus basic Python
+          for joint control through the robot API and ROS.</p>
+        <p><strong>Scope:</strong> Computer vision and control using visual feedback are optional
+          extensions to discuss with the supervisor.</p>
+      </article>
+
+      <article class="qiuqiu-project">
+        <p class="project-category">Reinforcement learning · Sim-to-real</p>
+        <h3>Project Bouncer</h3>
+        <figure class="robot-figure project-figure">
+          <img src="assets/img/qiuqiu/bouncer.png" width="452" height="454"
+            alt="Project illustration: Project Bouncer" loading="lazy">
+        </figure>
+        <p>Teach her to reach a balloon and jump at the right moment to keep it in the air.
+          The physical experiment uses a balloon rather than a football.</p>
+        <p><strong>The work:</strong> Build a reinforcement learning framework in Isaac Sim / Isaac Lab,
+          develop reward functions and a training curriculum, and explore balloon detection with
+          a 360-degree camera. High-fidelity simulation is a key milestone, with transfer to the
+          real robot as an ambitious next step.</p>
+        <p><strong>Useful skills:</strong> Python, reinforcement learning, PyTorch, Linux and ROS.</p>
+        <p><strong>Research direction:</strong> Agile locomotion, perception integration and sim-to-real
+          deployment. This project is recommended for students considering higher degree research.</p>
+      </article>
+
+      <article class="qiuqiu-project">
+        <p class="project-category">Wheeled-legged robotics · Reinforcement learning</p>
+        <h3>Project Strong Wheeling</h3>
+        <figure class="robot-figure project-figure">
+          <img src="assets/img/qiuqiu/strong_wheeling.png" width="596" height="400"
+            alt="Project illustration: Project Strong Wheeling" loading="lazy">
+        </figure>
+        <p>Give her the best of legs and wheels: teach her to skate on passive wheels attached
+          underneath her body, using her legs to propel herself.</p>
+        <p><strong>The work:</strong> Investigate the wheel type and number of wheels, model the
+          wheeled-legged robot in Isaac Sim / Isaac Lab, and develop a reinforcement learning
+          framework for skating. The design could potentially use just one wheel.</p>
+        <p><strong>Useful skills:</strong> Python programming and reinforcement learning theory.</p>
+        <p><strong>Research direction:</strong> Simulation and learned control for wheeled-legged
+          locomotion. This project is recommended for students considering higher degree research.</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">Be her next hero</h2>
+      <p>Interested in working with Qiuqiu? Contact Dr Thien-Minh Nguyen to discuss a project,
+        its scope and possible research extensions.</p>
+      <p class="cta"><a class="btn" href="mailto:thienminh.nguyen@uq.edu.au">Enquire about a project</a>
+        <a class="btn" href="members.html">Meet her team</a></p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">© 2026 AIS Group · The University of Queensland</div>
+  </footer>
+</body>
+</html>
