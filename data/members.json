@@ -21,10 +21,10 @@
         {
           "name": "Thien-Minh Nguyen",
           "role": "Lecturer · Group Lead",
-          "start": "2025.12",
-          "end": "Present",
-          "topic": "Multi-sensor SLAM & multi-robot systems",
-          "previous": "PhD@NTU",
+          "start": "",
+          "end": "",
+          "topic": "robotics, perception and learning",
+          "previous": "",
           "photo": "assets/img/members/thien-minh.avif",
           "url": "https://brytsknguyen.github.io/"
         }
@@ -65,8 +65,18 @@
           "end": "",
           "topic": "Project Grip Grip",
           "previous": "",
-          "photo": "assets/img/members/lara.jpeg",
+          "photo": "https://media.licdn.com/dms/image/v2/D5603AQEqEgzgbl3dPQ/profile-displayphoto-crop_800_800/B56aDbQAbjKsAI-/0/1790384804370?e=1793836800&v=beta&t=lc6KFBN5okIMTfoWesR80IcAHL6tH5kM0L5H7yLQ2b0",
           "url": "https://www.linkedin.com/in/lara-mcmanus123"
+        },
+        {
+          "name": "Corey Murphy",
+          "role": "METR4912 Thesis Student.",
+          "start": "",
+          "end": "",
+          "topic": "Project DodgeDoge",
+          "previous": "",
+          "photo": "https://media.licdn.com/dms/image/v2/D4D03AQHS_Brc4dAiWQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696975622585?e=1793836800&v=beta&t=nSYKuwHNQ0LY3VeBSHFRbHZpGM0ykWsetogn_fyVUxc",
+          "url": "https://www.linkedin.com/in/corey-murphy-a703bb295"
         }
       ]
     }
