@@ -31,7 +31,7 @@
       ]
     },
     {
-      "title": "PhD Candidates",
+      "title": "Higher-Degree by Research Students",
       "people": [
         {
           "name": "Tien-Dat Nguyen",
@@ -41,6 +41,16 @@
           "topic": "SLAM, 3D Reconstruction",
           "previous": "",
           "photo": "assets/img/members/dat.jpeg",
+          "url": ""
+        },
+        {
+          "name": "Xun Xie",
+          "role": "REIT7882 Thesis Student",
+          "start": "",
+          "end": "",
+          "topic": "Project Bouncer",
+          "previous": "",
+          "photo": "",
           "url": ""
         }
       ]
@@ -96,7 +106,7 @@
           "topic": "",
           "previous": "Winter research student",
           "photo": "assets/img/members/hung.jpg",
-          "url": ""
+          "url": "https://www.linkedin.com/in/gia-hung-huynh-1966772b9/"
         }
       ]
     }
